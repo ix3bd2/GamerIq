@@ -8,11 +8,11 @@ const Home = () => {
             <div className=" dark:text-white container mx-auto mt-16 flex flex-col md:flex-row items-center justify-between font-poppins">
                 {/* Welcome Message and Button */}
                 <div className="md:w-1/2">
-                    <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tighter">Welcome to Gamer IQ</h1>
+                    <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tighter">Welcome to <span className='text-logo-color'>GAMER IQ</span></h1>
                     <p className="text-2xl md:text-3xl mb-10 leading-relaxed tracking-wide">
                         Discover the best deals in gaming and hardware. Your one-stop platform for game keys, PC parts, and accessories.
                     </p>
-                    <button className="bg-yellow-400 text-white px-8 py-3 rounded-lg hover:bg-yellow-500 shadow-md transition-transform transform hover:scale-105 duration-300">
+                    <button className="bg-logo-color text-white px-8 py-3 rounded-lg hover:bg-logo-color-hover shadow-md transition-transform transform hover:scale-105 duration-300">
                         Explore More
                     </button>
                 </div>
@@ -26,7 +26,7 @@ const Home = () => {
             {/* devider */}
             <div className="my-16 flex items-center justify-center">
                 <div className="border-t-2 border-gray-700 w-1/4"></div>
-                <div className="bg-yellow-200 rounded-full h-8 w-8 mx-4"></div>
+                <div className="bg-logo-color rounded-full h-8 w-8 mx-4"></div>
                 <div className="border-t-2 border-gray-700 w-1/4"></div>
             </div>
 

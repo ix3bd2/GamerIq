@@ -10,7 +10,15 @@ export default {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      textColor: {
+        'logo-color': '#daae66',
+      },
+      backgroundColor: {
+        'logo-color': '#daae66',
+        'logo-color-hover': '#c09a5b' 
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin'),
