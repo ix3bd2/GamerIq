@@ -1,10 +1,13 @@
 import React from 'react'
 import { Dropdown, Navbar, Avatar } from 'flowbite-react';
+
+
 const PageNavbar = () => {
+
+
     return (
         <Navbar
             fluid
-            rounded
         >
             <Navbar.Brand href="https://gamer-iq.com">
                 <img
@@ -45,7 +48,7 @@ const PageNavbar = () => {
                     </Dropdown.Item>
                 </Dropdown> */}
 
-                
+
                 <Navbar.Toggle />
             </div>
             <Navbar.Collapse>
@@ -58,13 +61,13 @@ const PageNavbar = () => {
                     </p>
                 </Navbar.Link>
                 <Navbar.Link href="#">
-                    About
+                    Game Keys
                 </Navbar.Link>
                 <Navbar.Link href="#">
-                    Services
+                    PC Parts
                 </Navbar.Link>
                 <Navbar.Link href="#">
-                    Pricing
+                    Accessories
                 </Navbar.Link>
                 <Navbar.Link href="#">
                     Contact

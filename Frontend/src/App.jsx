@@ -1,14 +1,18 @@
-import { useState } from 'react'
+import { useEffect } from 'react';
+import Home from './pages/Home';
+
 
 function App() {
- 
+  useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
+
   return (
-    <>
-      <div>
-      hellossssssssssss
-      </div>
-    </>
-  )
+    <div className="min-h-screen bg-white dark:bg-gray-900">
+      <Home />
+
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -1,6 +1,10 @@
 import React from 'react'
+import { useEffect } from 'react';
 
 const NotFound = () => {
+  useEffect(() => {
+    document.documentElement.classList.add('dark');
+  }, []);
   return (
     <div>
       <section class="bg-white dark:bg-gray-900 ">
