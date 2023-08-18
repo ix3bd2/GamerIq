@@ -10,11 +10,7 @@ const PageNavbar = () => {
             fluid
         >
             <Navbar.Brand href="https://gamer-iq.com">
-                <img
-                    alt="Gamer IQ logo"
-                    className="mr-3 h-10 sm:h-16"
-                    src="../src/assets/images/logo.png"
-                />
+               
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
                 <img
                     alt="Gamer IQ logo"
@@ -58,13 +54,13 @@ const PageNavbar = () => {
             <Navbar.Collapse>
                 <Navbar.Link
                     active
-                    href="#"
+                    href="/"
                 >
                     <p>
                         Home
                     </p>
                 </Navbar.Link>
-                <Navbar.Link href="#">
+                <Navbar.Link href="/games">
                     Game Keys
                 </Navbar.Link>
                 <Navbar.Link href="#">

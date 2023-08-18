@@ -3,9 +3,9 @@ import React from 'react';
 const Home = () => {
     return (
         <>
-            <div className="dark:text-white container mx-auto mt-12 flex flex-col md:flex-row items-start justify-between font-poppins">
+            <div className="dark:text-white container mx-auto mt-12 flex flex-col md:flex-row justify-between font-poppins">
                 {/* Welcome Message and Button */}
-                <div className="flex flex-col justify-center min-h-screen">
+                <div className="flex flex-col justify-center md:text-start min-[320px]:text-center min-h-screen">
                     <div className="md:w-1/1">
                         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tighter"> <span className='text-logo-color'>GAMER IQ</span></h1>
                         <p className="text-2xl md:text-3xl mb-10 leading-relaxed tracking-wide">
@@ -16,10 +16,8 @@ const Home = () => {
                         </button>
                     </div>
                 </div>
-
-
                 {/* Cards */}
-                <div className="md:w-2/3 mt-8 md:mt-0 grid grid-cols-1 gap-8">
+                <div className="md:w-1/1 sm:w-full mt-8 md:mt-0 grid grid-cols-1 gap-8">
                     {/* Card 1 */}
                     <div className="transition-transform transform hover:scale-105 duration-300 hover:shadow-xl bg-gray-800 rounded-lg overflow-hidden">
                         <img src="/src/assets/images/gameKeys.jpg" alt="GameKeys" className="w-full h-40 object-cover" />
