@@ -12,11 +12,15 @@ const PageNavbar = () => {
             <Navbar.Brand href="https://gamer-iq.com">
                 <img
                     alt="Gamer IQ logo"
-                    className="mr-3 h-10 sm:h-9"
+                    className="mr-3 h-10 sm:h-16"
                     src="../src/assets/images/logo.png"
                 />
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-                    GAMER IQ
+                <img
+                    alt="Gamer IQ logo"
+                    className="mr-3 h-12 sm:h-20"
+                    src="../src/assets/images/logoText.png"
+                />
                 </span>
             </Navbar.Brand>
 
