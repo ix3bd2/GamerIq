@@ -12,11 +12,11 @@ export default {
   theme: {
     extend: {
       textColor: {
-        'logo-color': '#daae66',
+        'logo-color': '#dcaf67',
       },
       backgroundColor: {
-        'logo-color': '#daae66',
-        'logo-color-hover': '#c09a5b' 
+        'logo-color': '#dcaf67',
+        'logo-color-hover': '#dca367' 
       }
     },
   },
